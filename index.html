@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Studio Ghibli</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+	<link rel="small icon" href="https://imagizer.imageshack.com/img924/4715/7a2zch.png">
+	<style>
+		/* PARALLAX.CSS */
+		/*CSS created by Christopher Jay De Claro*/
+		/*github.com/cjdeclaro*/
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		.keyart,
+		.keyart_layer {
+			height: 1000px;
+		}
+
+		.keyart {
+			position: relative;
+			z-index: 10;
+		}
+
+		.keyart_layer {
+			background-position: bottom center;
+			background-size: auto 1038px;
+			background-repeat: repeat-x;
+			width: 100%;
+			position: absolute;
+		}
+
+		.keyart_layer.parallax {
+			position: fixed;
+		}
+
+		.main-content {
+			width: 100%;
+			position: absolute;
+			z-index: 200;
+		}
+
+		#keyart-0 {
+			background-image: url(https://imagizer.imageshack.com/img922/618/YeeWPL.png);
+		}
+
+		#keyart-1 {
+			background-image: url(https://imagizer.imageshack.com/img922/1507/fAfLMt.png);
+		}
+
+		#keyart-2 {
+			background-image: url(https://imagizer.imageshack.com/img923/1474/5dGQVB.png);
+		}
+
+		#keyart-3 {
+			background-image: url(https://imagizer.imageshack.com/img924/7640/5imD0K.png);
+		}
+
+		#keyart-4 {
+			background-image: url(https://imagizer.imageshack.com/img923/3513/FKcejz.png);
+		}
+
+		#keyart-5 {
+			background-image: url(https://imagizer.imageshack.com/img923/1622/tw8Z4d.png);
+		}
+
+		#keyart-scrim {
+			opacity: 0;
+		}
+
+		/*Added CSS by Aenjel Delos Reyes*/
+		.socials {
+			float: right;
+			margin: 10%;
+		}
+
+		.text {
+			margin: 10px;
+			text-align: center;
+		}
+
+		.pic {
+			margin: 20%;
+			height: 20px;
+		}
+	</style>
+</head>
+
+<body>
+	<section>
+		<div class="keyart" id="parallax">
+			<div class="keyart_layer parallax" id="keyart-0" data-speed="10"></div>
+			<div class="keyart_layer parallax" id="keyart-1" data-speed="4"></div>
+			<div class="keyart_layer parallax" id="keyart-2" data-speed="15"></div>
+			<div class="keyart_layer parallax" id="keyart-3" data-speed="2"></div>
+			<div class="keyart_layer parallax" id="keyart-4" data-speed="50"></div>
+			<div class="keyart_layer parallax" id="keyart-5" data-speed="100"></div>
+		</div>
+	</section>
+
+	<section class="main-content">
+		<div style="height: 2150px;background-color:white">
+			<!-- Nav Bar-->
+			<nav class="navbar navbar-expand-sm bg-white navbar-light sticky-top">
+				<div class="container-fluid">
+					<a class="navbar-brand" href="#">Studio Ghibli Movies and Description</a>
+				</div>
+			</nav>
+			<!-- Carousel -->
+			<div class="container">
+				<div id="demo" class="carousel slide" data-bs-ride="carousel">
+					<!-- Indicators/Dots -->
+					<div class="carousel-indicators">
+						<button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+						<button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+						<button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+						<button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+						<button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+						<button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
+						<button type="button" data-bs-target="#demo" data-bs-slide-to="6"></button>
+						<button type="button" data-bs-target="#demo" data-bs-slide-to="7"></button>
+					</div>
+					<!-- The Slideshow -->
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src="https://imagizer.imageshack.com/img922/9953/Q4Ir8b.png" alt="Chihiro at Work"
+								class="d-block" style="width:100%">
+						</div>
+						<div class="carousel-item">
+							<img src="https://imagizer.imageshack.com/img922/6485/TpyIVv.png" alt="Howl's Room"
+								class="d-block" style="width:100%">
+						</div>
+						<div class="carousel-item">
+							<img src="https://imagizer.imageshack.com/img924/1394/miI4Sn.png" alt="Kiki" class="d-block"
+								style="width:100%">
+						</div>
+						<div class="carousel-item">
+							<img src="https://imagizer.imageshack.com/img922/2739/m2UQjM.png" alt="Arrietty"
+								class="d-block" style="width:100%">
+						</div>
+						<div class="carousel-item">
+							<img src="https://imagizer.imageshack.com/img924/9126/7Odg40.png" alt="Ponyo and Sosuke"
+								class="d-block" style="width:100%">
+						</div>
+						<div class="carousel-item">
+							<img src="https://imagizer.imageshack.com/img922/825/Q3xDzd.png" alt="Umi and Shun"
+								class="d-block" style="width:100%">
+						</div>
+						<div class="carousel-item">
+							<img src="https://imagizer.imageshack.com/img922/4919/zxjdtv.png" alt="Totoro"
+								class="d-block" style="width:100%">
+						</div>
+						<div class="carousel-item">
+							<img src="https://imagizer.imageshack.com/img924/7984/JWpoiC.png" alt="Haru and Baron"
+								class="d-block" style="width:100%">
+						</div>
+					</div>
+					<!-- Left and Right Controls/Icons -->
+					<button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+						<span class="carousel-control-prev-icon"></span>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+						<span class="carousel-control-next-icon"></span>
+					</button>
+				</div>
+
+				<!-- Bootstrap per Movie -->
+				<div class="container-fluid mt-3">
+					<h2>My Favorite Studio Ghibli Movies</h2>
+					<p>Studio Ghibli has made a significant impact on the world through its unique animation style,
+						strong characters, and exploration of environmental and social themes. The studio's films
+						resonate with audiences globally, addressing universal themes and promoting cultural exchange.
+						Studio Ghibli's artistic integrity, quality, and lasting legacy have influenced the animation
+						industry and inspired a new wave of storytelling. Overall, the studio's ability to create
+						enchanting stories with emotional depth has touched the hearts of people worldwide.
+						<br />
+						<br />
+						During the pandemic, their films comforted my heart and became a comfort zone where I could be
+						during the chaos of the world. Here are some of my favorite movies from their collection that
+						had a significant effect on me:
+					</p>
+					<div class="row">
+						<div class="col-sm-3 col-md-4 col-lg-6">
+							<h4>Spirited Away</h4>
+							<div class="row">
+								<div class="col-md-4">
+									<img src="https://imagizer.imageshack.com/img924/1000/bxfCCV.png"
+										class="float-start" alt="Paris" width="150" height="225">
+								</div>
+								<div class="col-lg-8">
+									<p>The story follows a young girl named Chihiro, who, while moving to a new
+										neighborhood, enters a mystical realm filled with spirits and magical beings. As
+										she adapts to her new surroundings, she gains strength and resilience, learning
+										valuable life lessons along the way. Through her courage, compassion, and
+										determination, she gradually transforms from a timid girl into a brave and
+										independent individual.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3 col-md-4 col-lg-6">
+							<h4>Howl's Moving Castle</h4>
+							<div class="row">
+								<div class="col-md-4">
+									<img src="https://imagizer.imageshack.com/img924/5560/5CmunF.png"
+										class="float-start" alt="Paris" width="150" height="225">
+								</div>
+								<div class="col-lg-8">
+									<p>"Howl's Moving Castle" is a fantasy novel written by Diana Wynne Jones and also
+										adapted into an animated film by Hayao Miyazaki. The story follows a young
+										hat-maker named Sophie Hatter. Her life takes a dramatic turn when she
+										encounters the infamous wizard Howl. Navigating through magical encounters, she
+										must confront her own self-doubts, unravel the mysteries of Howl's past, and
+										discover the true nature of love and friendship.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3 col-md-4 col-lg-6">
+							<h4>Kiki's Delivery Service</h4>
+							<div class="row">
+								<div class="col-md-4">
+									<img src="https://imagizer.imageshack.com/img924/4787/K6tO6N.png"
+										class="float-start" alt="Paris" width="150" height="225">
+								</div>
+								<div class="col-lg-8">
+									<p>The story follows a young witch named Kiki as she embarks on a traditional
+										witch's rite of passage. As the story progresses, Kiki's self-belief and
+										determination are put to the test when she loses her ability to fly and
+										experiences a crisis of confidence. However, through friendship, perseverance,
+										and discovering her own inner resilience, Kiki finds her way back to embracing
+										her true self and regains her magical powers.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3 col-md-4 col-lg-6">
+							<h4>The Secret World of Arriety</h4>
+							<div class="row">
+								<div class="col-md-4">
+									<img src="https://imagizer.imageshack.com/img924/3931/Qu8Vm6.png"
+										class="float-start" alt="Paris" width="150" height="225">
+								</div>
+								<div class="col-lg-8">
+									<p>It is an animated film based on the novel "The Borrowers" by Mary Norton. The
+										story revolves around a young borrower named Arrietty Clock, who belongs to a
+										tiny family that lives secretly beneath the floorboards of a house. This film
+										beautifully portrays the delicate and enchanting interactions between the
+										one-inch-tall borrowers and the human world. It explores themes of friendship,
+										trust, and the importance of seeing beyond differences.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3 col-md-4 col-lg-6">
+							<h4>Ponyo</h4>
+							<div class="row">
+								<div class="col-md-4">
+									<img src="https://imagizer.imageshack.com/img922/672/7EW7Ji.png" class="float-start"
+										alt="Paris" width="150" height="225">
+								</div>
+								<div class="col-lg-8">
+									<p>"Ponyo" is a heartwarming animated film about a fish named Ponyo who wants to
+										become human. She befriends a young boy named Sosuke and together they embark on
+										an adventure to restore balance between the land and sea. The film showcases the
+										power of love, friendship, and the importance of preserving the natural world.
+										With its enchanting animation and heartfelt storytelling, "Ponyo" captures the
+										magic of childhood and the beauty of interconnectedness.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3 col-md-4 col-lg-6">
+							<h4>From Up On Poppy Hill</h4>
+							<div class="row">
+								<div class="col-md-4">
+									<img src="https://imagizer.imageshack.com/img924/3582/NvtqKg.png"
+										class="float-start" alt="Paris" width="150" height="225">
+								</div>
+								<div class="col-lg-8">
+									<p>"From Up on Poppy Hill" is a nostalgic animated film set in 1960s Yokohama,
+										Japan. Umi and Shun, two high school students, become friends and develop
+										romantic feelings for each other. They unite with their classmates to save a
+										historic clubhouse from demolition, discovering their shared past along the way.
+										The film beautifully portrays the themes of young love, identity, and the
+										importance of preserving history, showcasing the resilience and determination of
+										youth. It captures the spirit of a changing era and the universal struggles of
+										adolescence.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3 col-md-4 col-lg-6">
+							<h4>My Neighbor Totoro</h4>
+							<div class="row">
+								<div class="col-md-4">
+									<img src="https://imagizer.imageshack.com/img923/5426/UdZDDx.png"
+										class="float-start" alt="Paris" width="150" height="225">
+								</div>
+								<div class="col-lg-8">
+									<p>It is a heartwarming animated film about two young sisters, Satsuki and Mei, who
+										move to the countryside and befriend magical creatures called Totoros. Through
+										their encounters with the Totoros and their adventures in the enchanting forest,
+										the sisters find solace, joy, and a renewed sense of hope. The film captures the
+										innocence of childhood, celebrates the power of imagination, and emphasizes the
+										importance of family bonds and the wonders of nature. Its gentle storytelling
+										and breathtaking animation have made it a beloved classic.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3 col-md-4 col-lg-6">
+							<h4>The Cat Returns</h4>
+							<div class="row">
+								<div class="col-md-4">
+									<img src="https://imagizer.imageshack.com/img924/9526/ItaME6.png"
+										class="float-start" alt="Paris" width="150" height="225">
+								</div>
+								<div class="col-lg-8">
+									<p>It is a film about a young girl named Haru, who saves a cat and is transported to
+										the Cat Kingdom as a result. With the help of a dapper cat named Baron and his
+										companions, Haru embarks on a quest to escape the Cat Kingdom and return home.
+										The film explores themes of self-discovery, courage, and friendship, taking
+										viewers on a delightful journey through a fantastical world of talking cats and
+										eccentric characters. It captures the imaginative spirit of Studio Ghibli and
+										offers a charming and entertaining experience for audiences of all ages.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Footer -->
+			<div class="row">
+				<div class="col-md-4">
+					<img src="https://imagizer.imageshack.com/img924/4715/7a2zch.png" class="mx-auto d-block"
+						width="100" height="100">
+				</div>
+				<div class="col-md-4">
+					<div class="text">
+						<p>All rights are reserved to the rightful owners.</br>
+							2023.
+						</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="socials">
+						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+							class="bi bi-facebook" viewBox="0 0 16 16">
+							<path
+								d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+						</svg>
+					</div>
+					<div class="socials">
+						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+							class="bi bi-envelope-fill" viewBox="0 0 16 16">
+							<path
+								d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
+						</svg>
+					</div>
+					<div class="socials">
+						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+							class="bi bi-twitter" viewBox="0 0 16 16">
+							<path
+								d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+						</svg>
+					</div>
+					<div class="socials">
+						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+							class="bi bi-instagram" viewBox="0 0 16 16">
+							<path
+								d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+						</svg>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<!--Uses JQuery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript">
+		function castParallax() {
+
+			var opThresh = 350;
+			var opFactor = 750;
+
+			window.addEventListener("scroll", function (event) {
+				var top = this.pageYOffset;
+
+				var layers = document.getElementsByClassName("parallax");
+				var layer, speed, yPos;
+				for (var i = 0; i < layers.length; i++) {
+					layer = layers[i];
+					speed = layer.getAttribute('data-speed');
+					var yPos = -(top * speed / 100);
+					layer.setAttribute('style', 'transform: translate3d(0px, ' + yPos + 'px, 0px)');
+				}
+			});
+		}
+
+		function dispelParallax() {
+			$("#nonparallax").css('display', 'block');
+			$("#parallax").css('display', 'none');
+		}
+
+		function castSmoothScroll() {
+			$.srSmoothscroll({
+				step: 80,
+				speed: 300,
+				ease: 'linear'
+			});
+		}
+
+		function startSite() {
+			var platform = navigator.platform.toLowerCase();
+			var userAgent = navigator.userAgent.toLowerCase();
+
+			if (platform.indexOf('ipad') != -1 || platform.indexOf('iphone') != -1) {
+				dispelParallax();
+			} else if (platform.indexOf('win32') != -1 || platform.indexOf('linux') != -1) {
+				castParallax();
+				if ($.browser.webkit) {
+					castSmoothScroll();
+				}
+			} else {
+				castParallax();
+			}
+		}
+		document.body.onload = startSite();
+	</script>
+</body>
+
+</html>
